@@ -5,9 +5,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">S</span>
-          </div>
+          <img 
+            src="/lovable-uploads/f401157a-b53e-4775-b813-55ed2a7b08ab.png" 
+            alt="Switch Logo" 
+            className="w-8 h-8"
+          />
           <span className="text-xl font-bold text-foreground">Switch</span>
         </div>
         

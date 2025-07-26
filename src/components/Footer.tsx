@@ -9,9 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">S</span>
-              </div>
+              <img 
+                src="/lovable-uploads/f401157a-b53e-4775-b813-55ed2a7b08ab.png" 
+                alt="Switch Logo" 
+                className="w-8 h-8"
+              />
               <span className="text-xl font-bold">Switch</span>
             </div>
             <p className="text-muted-foreground">
@@ -75,7 +77,7 @@ const Footer = () => {
             </Badge>
             <div className="flex items-center space-x-1 text-muted-foreground text-sm">
               <Mail className="h-4 w-4" />
-              <span>hello@switchapp.in</span>
+              <span>00swtch00@gmail.com</span>
             </div>
           </div>
         </div>
