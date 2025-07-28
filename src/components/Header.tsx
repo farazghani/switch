@@ -24,15 +24,6 @@ const Header = () => {
             About
           </a>
         </nav>
-
-        <div className="flex items-center space-x-3">
-          <Button variant="ghost" className="hidden md:inline-flex">
-            Sign In
-          </Button>
-          <Button variant="hero" size="sm">
-            Get Started
-          </Button>
-        </div>
       </div>
     </header>
   );
